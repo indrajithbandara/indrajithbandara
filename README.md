@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 About Me: Hi, I'm Indrajith Bandara!
 - 🔭 I’m currently working on [CISCO Networking Academy](https://www.linkedin.com/in/indrajithbandara/)
 
 - 🌱 I’m currently learning **Ethical Hacking, Cybersecurity**
