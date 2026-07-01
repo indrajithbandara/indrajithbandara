@@ -121,10 +121,10 @@ print(me)
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&show_icons=true&theme=transparent&hide_border=true&title_color=00e08f&icon_color=00e08f&text_color=93a39e&bg_color=0a0d0c" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&cache_seconds=86400&show_icons=true&theme=transparent&hide_border=true&title_color=00e08f&icon_color=00e08f&text_color=93a39e&bg_color=0a0d0c" width="49%" alt="GitHub Stats"/>
 <img src="https://streak-stats.demolab.com/?user=indrajithbandara&theme=transparent&hide_border=true&ring=00e08f&fire=00e08f&currStreakLabel=00e08f&background=0a0d0c&stroke=00e08f&dates=93a39e" width="49%" alt="GitHub Streak"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrajithbandara&theme=transparent&hide_border=true&layout=compact&title_color=00e08f&text_color=93a39e&bg_color=0a0d0c" width="49%" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrajithbandara&cache_seconds=86400&theme=transparent&hide_border=true&layout=compact&title_color=00e08f&text_color=93a39e&bg_color=0a0d0c" width="49%" alt="Top Languages"/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=indrajithbandara&bg_color=0a0d0c&color=00e08f&line=00e08f&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
 
 </div>
