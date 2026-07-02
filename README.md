@@ -26,7 +26,7 @@
 
 ```bash
 guest@indrajith:~$ whoami
-H. M. Indrajith Bandara
+ Indrajith Bandara
 
 guest@indrajith:~$ cat role.txt
 Advisor (ASC/IT) | Excellence Oriented Support & Training Center
