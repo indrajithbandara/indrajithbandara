@@ -1,34 +1,34 @@
 <div align="center">
 
-```╔═════════════════════════════════════════════════════════════════════╗
-║                                                                       ║
+```text
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
 ║  ██╗███╗   ██╗██████╗ ██████╗  █████╗      ██╗██╗████████╗██╗  ██╗   ║
 ║  ██║████╗  ██║██╔══██╗██╔══██╗██╔══██╗     ██║██║╚══██╔══╝██║  ██║   ║
 ║  ██║██╔██╗ ██║██║  ██║██████╔╝███████║     ██║██║   ██║   ███████║   ║
 ║  ██║██║╚██╗██║██║  ██║██╔══██╗██╔══██║██   ██║██║   ██║   ██╔══██║   ║
 ║  ██║██║ ╚████║██████╔╝██║  ██║██║  ██║╚█████╔╝██║   ██║   ██║  ██║   ║
 ║  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝   ║
-║                                                                       ║
+║                                                                      ║
 ║              Cybersecurity Advisor · Cisco Instructor                ║
-║                Cloud Trainer · Open Source Developer                 ║
-║                                                                       ║
-╚═════════════════════════════════════════════════════════════════════╝
+║               Cloud Trainer · Open Source Developer                  ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00E08F&center=true&vCenter=true&multiline=false&width=700&lines=Cybersecurity+Advisor+%F0%9F%9B%A1%EF%B8%8F;Cisco+Instructor+Trainer+%F0%9F%8C%90;Cloud+Computing+Trainer+%E2%98%81%EF%B8%8F;Open+Source+Developer+%F0%9F%90%A7;Empowering+students+worldwide+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00E08F&center=true&vCenter=true&width=700&lines=Cybersecurity+Advisor+🛡️;Cisco+Instructor+Trainer+🌐;Cloud+Computing+Trainer+☁️;Open+Source+Developer+🐧;Empowering+students+worldwide+🚀)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-<div align="center">
-
 ```bash
 guest@indrajith:~$ whoami
- Indrajith Bandara
+Indrajith Bandara
 
 guest@indrajith:~$ cat role.txt
-Advisor (ASC/IT) | Excellence Oriented Support & Training Center
+Advisor (ASC/IT)
+Excellence Oriented Support & Training Center
 Acting on behalf of Cisco Networking Academy
 
 guest@indrajith:~$ cat mission.txt
@@ -36,6 +36,7 @@ Empowering students worldwide through Cybersecurity,
 Networking, Cloud Computing, AI & Open Source Education.
 
 guest@indrajith:~$ █
+```
 ```
 
 </div>
