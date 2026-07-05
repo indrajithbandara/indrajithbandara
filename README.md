@@ -14,6 +14,7 @@
 ║                                                                       ║
 ╚═════════════════════════════════════════════════════════════════════╝
 
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00E08F&center=true&vCenter=true&multiline=false&width=700&lines=Cybersecurity+Advisor+%F0%9F%9B%A1%EF%B8%8F;Cisco+Instructor+Trainer+%F0%9F%8C%90;Cloud+Computing+Trainer+%E2%98%81%EF%B8%8F;Open+Source+Developer+%F0%9F%90%A7;Empowering+students+worldwide+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
