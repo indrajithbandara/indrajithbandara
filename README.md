@@ -116,15 +116,19 @@ print(me)
 
 ## 📊 GitHub Statistics
 
-<div align="center">
+## 📊 GitHub Statistics
 
-<img src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&show_icons=true&theme=transparent&hide_border=true&title_color=00e08f&icon_color=00e08f&text_color=93a39e&bg_color=0a0d0c" width="49%" alt="GitHub Stats"/>
-<img src="https://streak-stats.demolab.com/?user=indrajithbandara&theme=transparent&hide_border=true&ring=00e08f&fire=00e08f&currStreakLabel=00e08f&background=0a0d0c&stroke=00e08f&dates=93a39e" width="49%" alt="GitHub Streak"/>
+| **GitHub Stats** | **Top Languages** |
+|:---:|:---:|
+| <img src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&show_icons=true&theme=radical&hide_border=true" width="400"/> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrajithbandara&layout=compact&theme=radical&hide_border=true" width="400"/> |
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrajithbandara&theme=transparent&hide_border=true&layout=compact&title_color=00e08f&text_color=93a39e&bg_color=0a0d0c" width="49%" alt="Top Languages"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=indrajithbandara&bg_color=0a0d0c&color=00e08f&line=00e08f&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
+| **Contribution Graph** |
+|:---:|
+| <img src="https://github-readme-activity-graph.vercel.app/graph?username=indrajithbandara&theme=react-dark&bg_color=0a0d0c&color=00e08f&line=00e08f&point=ffffff&area=true&hide_border=true" width="800"/> |
 
-</div>
+| **GitHub Streak** |
+|:---:|
+| <img src="https://github-readme-streak-stats.herokuapp.com/?user=indrajithbandara&theme=radical&hide_border=true" width="600"/> |
 ---
 
 ## 🏆 Achievements & Certifications
