@@ -114,26 +114,29 @@ print(me)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ## 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
 
-| **GitHub Stats** | **Top Languages** |
+| **📈 GitHub Stats** | **📊 Top Languages** |
 |:---:|:---:|
 | <img src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&show_icons=true&theme=radical&hide_border=true" width="400"/> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrajithbandara&layout=compact&theme=radical&hide_border=true" width="400"/> |
 
 <br/>
 
-| **Contribution Graph** |
+| **📅 Contribution Graph** |
 |:---:|
 | <img src="https://github-readme-activity-graph.vercel.app/graph?username=indrajithbandara&theme=react-dark&bg_color=0a0d0c&color=00e08f&line=00e08f&point=ffffff&area=true&hide_border=true" width="800"/> |
 
 <br/>
 
-| **GitHub Streak** |
+| **🔥 GitHub Streak** |
 |:---:|
 | <img src="https://github-readme-streak-stats.herokuapp.com/?user=indrajithbandara&theme=radical&hide_border=true" width="600"/> |
 
 </div>
+
+---
 
 ## 🏆 Achievements & Certifications
 
