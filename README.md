@@ -113,9 +113,6 @@ print(me)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-</div>
-
----
 
 ## 📊 GitHub Statistics
 
@@ -128,7 +125,6 @@ print(me)
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=indrajithbandara&bg_color=0a0d0c&color=00e08f&line=00e08f&point=ffffff&area=true&hide_border=true" width="98%" alt="Contribution Graph"/>
 
 </div>
-
 ---
 
 ## 🏆 Achievements & Certifications
