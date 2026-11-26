@@ -161,6 +161,10 @@ Source: GitHub API. Last push is activity, not a release or security certificati
 
 <!-- metrics:end -->
 
+### Contribution skyline
+
+[![Contribution skyline — generated from GitHub calendar when available](assets/contribution-skyline.svg)](https://github.com/indrajithbandara)
+
 [View contribution history and repository activity](https://github.com/indrajithbandara)
 
 ## 07 / `cat contact.conf`
