@@ -2,10 +2,11 @@ import json
 import os
 import pathlib
 import urllib.request
+import urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OWNER = "indrajithbandara"
-PROJECTS = ["Privacy-Lock-App", "undisturbed", "indrajithbandara.github.io"]
+PROJECTS = ["Privacy-Lock-App", "indrajithbandara.github.io"]
 
 def api(path):
     request = urllib.request.Request(
@@ -21,7 +22,15 @@ def main():
     profile = api("users/" + OWNER)
     lines = ["| Repository | Open issues & PRs | Stars | Last push (UTC) |", "| --- | ---: | ---: | --- |"]
     for name in PROJECTS:
-        repo = api("repos/" + OWNER + "/" + name)
+        try:
+            repo = api("repos/" + OWNER + "/" + name)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                print(f"Skipping unavailable repository: {name}")
+                continue
+            raise
+        if repo.get("private") or repo.get("visibility") != "public":
+            continue
         lines.append(f"| [{name}](https://github.com/{OWNER}/{name}) | {repo['open_issues_count']} | {repo['stargazers_count']} | {repo['pushed_at'][:10]} |")
     block = "\n".join(["<!-- metrics:start -->", "", f"Public repositories: **{profile['public_repos']}** · Followers: **{profile['followers']}**", "", *lines, "", "Source: GitHub API. Last push is activity, not a release or security certification.", "", "<!-- metrics:end -->"])
     path = ROOT / "README.md"
