@@ -6,7 +6,7 @@
 
 **CLOUD · OPEN SOURCE**
 
-<img src="assets/terminal.svg" alt="Modern Terminal — Indrajith Bandara" width="520">
+<img src="assets/terminal-mobile.svg" alt="Modern Terminal — Indrajith Bandara" width="360">
 
 [Portfolio](https://indrajithbandara.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/indrajithbandara) · [Repositories](https://github.com/indrajithbandara?tab=repositories)
 
