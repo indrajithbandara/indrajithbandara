@@ -1,153 +1,73 @@
 <div align="center">
 
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║  ██╗███╗   ██╗██████╗ ██████╗  █████╗      ██╗██╗████████╗██╗  ██╗   ║
-║  ██║████╗  ██║██╔══██╗██╔══██╗██╔══██╗     ██║██║╚══██╔══╝██║  ██║   ║
-║  ██║██╔██╗ ██║██║  ██║██████╔╝███████║     ██║██║   ██║   ███████║   ║
-║  ██║██║╚██╗██║██║  ██║██╔══██╗██╔══██║██   ██║██║   ██║   ██╔══██║   ║
-║  ██║██║ ╚████║██████╔╝██║  ██║██║  ██║╚█████╔╝██║   ██║   ██║  ██║   ║
-║  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝   ║
-║                                                                      ║
-║              Cybersecurity Advisor · Cisco Instructor                ║
-║               Cloud Trainer · Open Source Developer                  ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+# Indrajith Bandara
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00E08F&center=true&vCenter=true&width=700&lines=Cybersecurity+Advisor+🛡️;Cisco+Instructor+Trainer+🌐;Cloud+Computing+Trainer+☁️;Open+Source+Developer+🐧;Empowering+students+worldwide+🚀)](https://git.io/typing-svg)
+**CYBERSECURITY · NETWORKING · CLOUD · OPEN SOURCE**
+
+![Terminal typing animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1400&color=2EA043&width=340&center=true&lines=whoami;Build.+Learn.+Secure.;Technology+with+purpose.)
+
+[Portfolio](https://indrajithbandara.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/indrajithbandara) · [Repositories](https://github.com/indrajithbandara?tab=repositories)
 
 </div>
 
 ---
 
-```bash
+## 01 / `whoami`
+
+```console
 guest@indrajith:~$ whoami
-Indrajith Bandara
+H. M. Indrajith Bandara
 
-guest@indrajith:~$ cat role.txt
-Advisor (ASC/IT)
-Excellence Oriented Support & Training Center
-Acting on behalf of Cisco Networking Academy
-
-guest@indrajith:~$ cat mission.txt
-Empowering students worldwide through Cybersecurity,
-Networking, Cloud Computing, AI & Open Source Education.
-
-guest@indrajith:~$ █
-```
+guest@indrajith:~$ cat profile.conf
+location = Sri Lanka
+focus    = Security, Networking, Cloud
+mission  = Technology education
+shell    = Open source
 ```
 
-</div>
+Advisor (ASC/IT) at Excellence Oriented Support & Training Center, acting on behalf of Cisco Networking Academy, as described in my professional profile.
 
----
+My work and interests span cybersecurity education, Cisco instructor training, networking, cloud computing, programming education, technical mentoring and open-source development.
 
-## 🛡️ About Me
+## 02 / `ls ./projects`
 
-```python
-class IndrajithBandara:
-    def __init__(self):
-        self.name        = "H. M. Indrajith Bandara"
-        self.location    = "Diyathalawa, Sri Lanka 🇱🇰"
-        self.role        = "Advisor (ASC/IT)"
-        self.org         = "Excellence Oriented Support & Training Center"
-        self.on_behalf   = "Cisco Networking Academy"
+### [Untouched: Privacy Lock](https://github.com/indrajithbandara/Privacy-Lock-App)
 
-    @property
-    def roles(self):
-        return [
-            "🛡️  Cybersecurity Advisor",
-            "🌐  Cisco Instructor Trainer",
-            "🔧  Networking Specialist",
-            "☁️  Cloud Computing Trainer",
-            "💻  Programming Educator",
-            "🎓  Technical Mentor",
-            "🐧  Open Source Developer",
-        ]
+Android privacy and application-locking project built with Kotlin and Jetpack Compose. Focused on authentication, privacy and secure application access.
 
-    @property
-    def mission(self):
-        return "Empowering students worldwide through Cybersecurity, Networking, Cloud & AI."
+`Android` · `Kotlin` · `Privacy` · `Security`
 
-    def __str__(self):
-        return f"{self.name} | {self.role} | {self.location}"
+[Source code](https://github.com/indrajithbandara/Privacy-Lock-App) · [Releases](https://github.com/indrajithbandara/Privacy-Lock-App/releases)
 
-me = IndrajithBandara()
-print(me)
-```
+### [Undisturbed](https://github.com/indrajithbandara/undisturbed)
 
----
+Network privacy engineering project exploring tracker detection and Android VPN-based protection.
 
-## 🚀 Tech Stack & Skills
+`Android` · `Network privacy` · `Tracker protection`
 
-<div align="center">
+[Source code](https://github.com/indrajithbandara/undisturbed) · [Development activity](https://github.com/indrajithbandara/undisturbed/pulls)
 
-### 🔐 Cybersecurity & Networking
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-00E08F?style=for-the-badge&logo=hackthebox&logoColor=black)
-![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-FF0000?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Network Security](https://img.shields.io/badge/Network_Security-00E08F?style=for-the-badge&logo=paloaltonetworks&logoColor=black)
-![Fortinet](https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white)
-![Palo Alto](https://img.shields.io/badge/Palo_Alto-FA582D?style=for-the-badge&logo=paloaltonetworks&logoColor=white)
+### [Professional Technology Platform](https://indrajithbandara.is-a.dev/)
 
-### ☁️ Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS_Academy-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+Personal portfolio and professional technology platform.
 
-### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+`Web` · `Personal branding` · `Open source`
 
-### 🐧 Operating Systems & Tools
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+[Live website](https://indrajithbandara.is-a.dev/) · [Source code](https://github.com/indrajithbandara/indrajithbandara.github.io)
 
-## 📊 GitHub Statistics
+## 03 / `cat skills.conf`
 
-<table>
-<tr>
-<td>
+| Domain | Technologies and areas of interest |
+| --- | --- |
+| Security | Cybersecurity, ethical hacking, network security, Fortinet, Palo Alto |
+| Networking | Cisco, network infrastructure |
+| Cloud | AWS Academy, Oracle Cloud, VMware, Red Hat |
+| Development | Python, JavaScript, C, C++, Kotlin, Bash |
+| Systems | Linux, Kali Linux, Ubuntu |
+| Tooling | Git, GitHub, VS Code |
+| Emerging technology | AI, privacy engineering |
 
-<img src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&show_icons=true&theme=tokyonight&hide_border=true" />
-
-</td>
-
-<td>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrajithbandara&layout=compact&theme=tokyonight&hide_border=true" />
-
-</td>
-</tr>
-</table>
-
-| **📅 Contribution Graph** |
-|:---:|
-| <img src="https://github-readme-activity-graph.vercel.app/graph?username=indrajithbandara&theme=react-dark&bg_color=0a0d0c&color=00e08f&line=00e08f&point=ffffff&area=true&hide_border=true" width="800"/> |
-
-<br/>
-
-| **🔥 GitHub Streak** |
-|:---:|
-| <img src="https://github-readme-streak-stats.herokuapp.com/?user=indrajithbandara&theme=radical&hide_border=true" width="600"/> |
-
-</div>
-
----
-
-## 🏆 Achievements & Certifications
-
-<div align="center">
+## 04 / `ls ./credentials`
 
 | 🏅 Achievement | 📋 Details |
 |---|---|
@@ -158,13 +78,9 @@ print(me)
 | 🎓 **CodePath Mentor** | CodePath Mentor Network |
 | 🏆 **220+ Badges** | Digital Credentials across Security, Cloud & Networking |
 
-</div>
+## 05 / `cat academy-network.conf`
 
----
-
-## 🤝 Academy Partnerships
-
-<div align="center">
+Academy and learning ecosystem affiliations listed in my professional profile:
 
 ![Cisco](https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle_Academy-F80000?style=flat-square&logo=oracle&logoColor=white)
@@ -176,37 +92,17 @@ print(me)
 ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn_Learning-0A66C2?style=flat-square&logo=linkedin&logoColor=white)
 
-</div>
+## 06 / `git log --activity`
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=indrajithbandara&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true">
+  <img alt="GitHub statistics for Indrajith Bandara" src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&amp;show_icons=true&amp;theme=default&amp;hide_border=true">
+</picture>
 
-## 🌟 Featured Projects
+[View contribution history and repository activity](https://github.com/indrajithbandara)
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🔒 Privacy Lock App                                        │
-│  Android privacy app · Kotlin · Jetpack Compose             │
-│  Secure app locking with biometric authentication           │
-│  → github.com/indrajithbandara/Privacy-Lock-App             │
-├─────────────────────────────────────────────────────────────┤
-│  🛡️  Cybersecurity Dashboard                                │
-│  Real-time threat monitoring & network health metrics       │
-├─────────────────────────────────────────────────────────────┤
-│  ⌬  Network Tools                                           │
-│  CLI toolkit · ping sweeps · port scans · subnet calc       │
-├─────────────────────────────────────────────────────────────┤
-│  🐧 Linux Utilities                                         │
-│  Shell scripts for system hardening & log auditing          │
-└─────────────────────────────────────────────────────────────┘
-```
+## 07 / `cat contact.conf`
 
----
-
-## 📫 Connect With Me
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-00E08F?style=for-the-badge&logoColor=black)](https://indrajithbandara.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/indrajithbandara)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/indrajithbandara)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/HeyIndrajith)
@@ -214,22 +110,12 @@ print(me)
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/indrajithbandara)
 [![Email](https://img.shields.io/badge/Email-00E08F?style=for-the-badge&logo=gmail&logoColor=black)](mailto:indrajithbandarasl@gmail.com)
 
-</div>
-
 ---
 
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════╗
-║  "The best way to predict the future is to secure it" ║
-║                                                       ║
-║         root@indrajith:~# shutdown -h never           ║
-╚═══════════════════════════════════════════════════════╝
+```console
+guest@indrajith:~$ echo "Build with purpose. Learn continuously."
+Build with purpose. Learn continuously.
+guest@indrajith:~$ _
 ```
 
-![Visitor Count](https://visitcount.itsvg.in/api?id=indrajithbandara&icon=0&color=0)
-
-**⭐ If you find my work helpful, please star my repositories!**
-
-</div>
+<sub>Modern Terminal · Professional engineering profile</sub>
