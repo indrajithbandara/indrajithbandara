@@ -34,7 +34,7 @@ SYNC           Daily scheduled refresh
 
 ```console
 guest@indrajith:~$ whoami
-H. M. Indrajith Bandara
+Indrajith Bandara
 
 guest@indrajith:~$ cat profile.conf
 location = Sri Lanka
