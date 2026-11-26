@@ -12,6 +12,22 @@
 
 ---
 
+<img src="assets/terminal-boot.svg" alt="Profile boot sequence" width="520">
+
+### `help` — Command index
+
+[whoami](#01--whoami) · [projects](#02--ls-projects) · [skills](#03--cat-skillsconf) · [credentials](#04--ls-credentials) · [network](#05--cat-academy-networkconf) · [activity](#06--git-log--activity) · [contact](#07--cat-contactconf)
+
+### `neofetch`
+
+```text
+PROFILE OS     Modern Terminal 5.0
+FOCUS          Security / Networking / Cloud
+ENVIRONMENT    Linux / Open Source
+DATA SOURCE    GitHub public API
+SYNC           Daily scheduled refresh
+```
+
 ## 01 / `whoami`
 
 <img src="assets/terminal-identity.svg" alt="Animated terminal command: whoami" width="520">
@@ -140,4 +156,4 @@ Build with purpose. Learn continuously.
 guest@indrajith:~$ _
 ```
 
-<sub>Modern Terminal 4.0 · Professional engineering profile</sub>
+<sub>Modern Terminal 5.0 · Professional engineering profile</sub>
