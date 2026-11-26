@@ -170,6 +170,12 @@ Source: GitHub API. Last push is activity, not a release or security certificati
 
 ### Contribution skyline
 
+<!-- skyline:start -->
+
+Contribution summary updates with the calendar.
+
+<!-- skyline:end -->
+
 The skyline visualizes daily activity. For accessible counts and dates, use the [GitHub contribution calendar](https://github.com/indrajithbandara).
 
 [![Contribution skyline — generated from GitHub calendar when available](assets/contribution-skyline.svg)](https://github.com/indrajithbandara)
