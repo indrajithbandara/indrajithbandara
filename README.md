@@ -131,6 +131,22 @@ Public repositories: **2855** · Followers: **1471**
 | [Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App) | 10 | 1 | 2026-11-25 |
 | [indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io) | 1 | 0 | 2026-11-26 |
 
+Account created: **2016-10-21**
+
+### Latest public engineering activity
+
+- [Privacy-Lock-App / f1b7f16](https://github.com/indrajithbandara/Privacy-Lock-App/commit/f1b7f162737d503722cd434475e701b24c260f06) — 2026-06-28
+- [indrajithbandara.github.io / 055c480](https://github.com/indrajithbandara/indrajithbandara.github.io/commit/055c480d3d683f5dfa46fc03f3aaa729ec44e3ab) — 2026-11-26
+
+### Project health monitor
+
+| Repository | Latest published release | Latest commit check |
+| --- | --- | --- |
+| [Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App) | [No latest stable release reported](https://github.com/indrajithbandara/Privacy-Lock-App/releases) | See check results |
+| [indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io) | [No latest stable release reported](https://github.com/indrajithbandara/indrajithbandara.github.io/releases) | See check results |
+
+Check results are not a security or production-readiness guarantee.
+
 Source: GitHub API. Last push is activity, not a release or security certification.
 
 <!-- metrics:end -->
