@@ -139,10 +139,12 @@ Academy and learning ecosystem affiliations listed in my professional profile:
 
 Public repositories: **2855** · Followers: **1471**
 
-| Repository | Open issues & PRs | Stars | Last push (UTC) |
-| --- | ---: | ---: | --- |
-| [Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App) | 10 | 1 | 2026-11-25 |
-| [indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io) | 1 | 0 | 2026-11-26 |
+- **[Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App)**
+  - Open issues & PRs: 10 · Stars: 1
+  - Last push (UTC): 2026-11-25
+- **[indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io)**
+  - Open issues & PRs: 1 · Stars: 0
+  - Last push (UTC): 2026-11-26
 
 Account created: **2016-10-21**
 
@@ -153,10 +155,12 @@ Account created: **2016-10-21**
 
 ### Project health monitor
 
-| Repository | Latest published release | Latest commit check |
-| --- | --- | --- |
-| [Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App) | [No latest stable release reported](https://github.com/indrajithbandara/Privacy-Lock-App/releases) | See check results |
-| [indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io) | [No latest stable release reported](https://github.com/indrajithbandara/indrajithbandara.github.io/releases) | See check results |
+- **[Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App)**
+  - [No latest stable release reported](https://github.com/indrajithbandara/Privacy-Lock-App/releases)
+  - See check results
+- **[indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io)**
+  - [No latest stable release reported](https://github.com/indrajithbandara/indrajithbandara.github.io/releases)
+  - See check results
 
 Check results are not a security or production-readiness guarantee.
 
