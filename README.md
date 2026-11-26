@@ -2,9 +2,11 @@
 
 # Indrajith Bandara
 
-**CYBERSECURITY · NETWORKING · CLOUD · OPEN SOURCE**
+**CYBERSECURITY · NETWORKING**
 
-<img src="assets/terminal.svg" alt="Modern Terminal — Indrajith Bandara" width="640">
+**CLOUD · OPEN SOURCE**
+
+<img src="assets/terminal.svg" alt="Modern Terminal — Indrajith Bandara" width="520">
 
 [Portfolio](https://indrajithbandara.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/indrajithbandara) · [Repositories](https://github.com/indrajithbandara?tab=repositories)
 
@@ -16,13 +18,17 @@
 
 ### `help` — Command index
 
-[whoami](#01--whoami) · [projects](#02--ls-projects) · [skills](#03--cat-skillsconf) · [credentials](#04--ls-credentials) · [network](#05--cat-academy-networkconf) · [activity](#06--git-log--activity) · [contact](#07--cat-contactconf)
+[whoami](#01--whoami) · [projects](#02--ls-projects)  
+[skills](#03--cat-skillsconf) · [credentials](#04--ls-credentials)  
+[network](#05--cat-academy-networkconf) · [activity](#06--git-log--activity)  
+[contact](#07--cat-contactconf)
 
 ### `neofetch`
 
 ```text
 PROFILE OS     Modern Terminal 5.0
-FOCUS          Security / Networking / Cloud
+FOCUS          Security / Network
+               Cloud
 ENVIRONMENT    Linux / Open Source
 DATA SOURCE    GitHub public API
 SYNC           Daily scheduled refresh
@@ -38,7 +44,8 @@ Indrajith Bandara
 
 guest@indrajith:~$ cat profile.conf
 location = Sri Lanka
-focus    = Security, Networking, Cloud
+focus    = Security / Networking
+           Cloud
 mission  = Technology education
 shell    = Open source
 ```
@@ -79,15 +86,13 @@ Personal portfolio and professional technology platform.
 
 <img src="assets/terminal-skills.svg" alt="Animated terminal command: cat skills.conf" width="520">
 
-| Domain | Technologies and areas of interest |
-| --- | --- |
-| Security | Cybersecurity, ethical hacking, network security, Fortinet, Palo Alto |
-| Networking | Cisco, network infrastructure |
-| Cloud | AWS Academy, Oracle Cloud, VMware, Red Hat |
-| Development | Python, JavaScript, C, C++, Kotlin, Bash |
-| Systems | Linux, Kali Linux, Ubuntu |
-| Tooling | Git, GitHub, VS Code |
-| Emerging technology | AI, privacy engineering |
+- **Security:** Cybersecurity, ethical hacking, network security, Fortinet, Palo Alto
+- **Networking:** Cisco, network infrastructure
+- **Cloud:** AWS Academy, Oracle Cloud, VMware, Red Hat
+- **Development:** Python, JavaScript, C, C++, Kotlin, Bash
+- **Systems:** Linux, Kali Linux, Ubuntu
+- **Tooling:** Git, GitHub, VS Code
+- **Emerging technology:** AI, privacy engineering
 
 <img src="assets/expertise-map.svg" alt="Qualitative map of technical interests; no proficiency scores" width="520">
 
@@ -95,14 +100,12 @@ Personal portfolio and professional technology platform.
 
 <img src="assets/terminal-credentials.svg" alt="Animated terminal command: ls ./credentials" width="520">
 
-| 🏅 Achievement | 📋 Details |
-|---|---|
-| 🎖️ **CCEP** | Certified Cybersecurity Educator Professional |
-| ☁️ **Oracle Cloud** | Oracle Cloud Foundations Certified |
-| 🔐 **APIsec Ambassador** | APIsec University Ambassador |
-| 🤖 **AI Frontier** | AI Frontier Network Member |
-| 🎓 **CodePath Mentor** | CodePath Mentor Network |
-| 🏆 **220+ Badges** | Digital Credentials across Security, Cloud & Networking |
+- 🎖️ **CCEP** — Certified Cybersecurity Educator Professional
+- ☁️ **Oracle Cloud** — Oracle Cloud Foundations Certified
+- 🔐 **APIsec Ambassador** — APIsec University Ambassador
+- 🤖 **AI Frontier** — AI Frontier Network Member
+- 🎓 **CodePath Mentor** — CodePath Mentor Network
+- 🏆 **220+ Badges** — Digital Credentials across Security, Cloud & Networking
 
 ### Achievement milestones (dates not supplied)
 
@@ -181,7 +184,7 @@ Source: GitHub API. Last push is activity, not a release or security certificati
 ---
 
 ```console
-guest@indrajith:~$ echo "Build with purpose. Learn continuously."
+guest@indrajith:~$ echo $MISSION
 Build with purpose. Learn continuously.
 guest@indrajith:~$ _
 ```
