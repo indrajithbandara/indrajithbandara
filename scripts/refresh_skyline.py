@@ -36,7 +36,20 @@ def main():
     weeks = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
     if not weeks or len(weeks) > 54:
         raise ValueError("Unexpected calendar")
-    (ROOT / "assets" / "contribution-skyline.svg").write_text(render(weeks), encoding="utf-8")
+    days = [d for w in weeks for d in w["contributionDays"]]
+    total = sum(d["contributionCount"] for d in days)
+    active = sum(d["contributionCount"] > 0 for d in days)
+    peak = max(d["contributionCount"] for d in days)
+    svg = render(weeks)
+    import xml.etree.ElementTree as ET
+    ET.fromstring(svg)
+    (ROOT / "assets" / "contribution-skyline.svg").write_text(svg, encoding="utf-8")
+    path = ROOT / "README.md"
+    original = path.read_text(encoding="utf-8")
+    start, end = "<!-- skyline:start -->", "<!-- skyline:end -->"
+    if original.count(start) == original.count(end) == 1:
+        block = f"{start}\n\n**{total} contributions** · **{active} active days** · **{peak} peak daily count**\n\n{end}"
+        path.write_text(original[:original.index(start)] + block + original[original.index(end)+len(end):], encoding="utf-8")
 
 if __name__ == "__main__":
     main()
