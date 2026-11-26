@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+<title id="title">Indrajith Bandara — Modern Terminal</title><desc id="desc">Security, networking, cloud and open source engineering.</desc>
+<style>.cursor{animation:blink 1.4s steps(1) infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
+<rect x="1" y="1" width="638" height="218" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<path d="M2 43H638" stroke="#30363d"/><circle cx="22" cy="22" r="5" fill="#ff605c"/><circle cx="39" cy="22" r="5" fill="#ffbd44"/><circle cx="56" cy="22" r="5" fill="#28c840"/>
+<g font-family="monospace"><text x="320" y="27" text-anchor="middle" font-size="14" fill="#aab5c0">indrajith@github ~</text><text x="25" y="78" font-size="18" fill="#56d364">$ whoami</text><text x="25" y="118" font-size="32" font-weight="bold" fill="#f0f6fc">INDRAJITH BANDARA</text><text x="25" y="151" font-size="16" fill="#aab5c0">Security / Networking / Cloud / Open Source</text><text x="25" y="190" font-size="18" fill="#56d364">$</text><rect class="cursor" x="47" y="175" width="10" height="19" fill="#56d364"/></g></svg>

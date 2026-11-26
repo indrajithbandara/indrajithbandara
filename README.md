@@ -4,7 +4,7 @@
 
 **CYBERSECURITY · NETWORKING · CLOUD · OPEN SOURCE**
 
-![Terminal typing animation](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1400&color=2EA043&width=340&center=true&lines=whoami;Build.+Learn.+Secure.;Technology+with+purpose.)
+<img src="assets/terminal.svg" alt="Modern Terminal — Indrajith Bandara" width="640">
 
 [Portfolio](https://indrajithbandara.is-a.dev/) · [LinkedIn](https://www.linkedin.com/in/indrajithbandara) · [Repositories](https://github.com/indrajithbandara?tab=repositories)
 
@@ -94,10 +94,11 @@ Academy and learning ecosystem affiliations listed in my professional profile:
 
 ## 06 / `git log --activity`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=indrajithbandara&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true">
-  <img alt="GitHub statistics for Indrajith Bandara" src="https://github-readme-stats.vercel.app/api?username=indrajithbandara&amp;show_icons=true&amp;theme=default&amp;hide_border=true">
-</picture>
+<!-- metrics:start -->
+
+GitHub metrics will appear after the first successful automated refresh.
+
+<!-- metrics:end -->
 
 [View contribution history and repository activity](https://github.com/indrajithbandara)
 
@@ -118,4 +119,4 @@ Build with purpose. Learn continuously.
 guest@indrajith:~$ _
 ```
 
-<sub>Modern Terminal · Professional engineering profile</sub>
+<sub>Modern Terminal 3.0 · Professional engineering profile</sub>
