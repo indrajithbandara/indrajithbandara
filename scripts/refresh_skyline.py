@@ -9,7 +9,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 QUERY = """query { user(login: "indrajithbandara") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }"""
 
 def render(weeks):
-    parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280"><title>Public contribution skyline</title><rect width="760" height="280" rx="12" fill="#0d1117"/><text x="20" y="30" fill="#56d364" font-family="monospace" font-size="16">$ skyline --public</text>']
+    parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280"><title>GitHub contribution skyline</title><rect width="760" height="280" rx="12" fill="#0d1117"/><text x="20" y="38" fill="#56d364" font-family="monospace" font-size="32">$ skyline</text>']
     peak = max((d["contributionCount"] for w in weeks for d in w["contributionDays"]), default=1) or 1
     for j in range(7):
         for i, week in enumerate(weeks):
@@ -24,7 +24,7 @@ def render(weeks):
             if n:
                 parts.append(f'<path d="M{x} {y}v{-h}l8 -4v{h}z" fill="#238636"/><path d="M{x+8} {y-4}v{-h}l5 3v{h}z" fill="#196c2e"/><path d="M{x} {y-h}l8 -4 5 3 -8 4z" fill="#56d364"/>')
             parts.append('</g>')
-    parts.append('<text x="20" y="265" fill="#8b949e" font-family="monospace" font-size="12">GitHub contribution calendar | Height relative to peak day</text></svg>')
+    parts.append('<text x="20" y="275" fill="#8b949e" font-family="monospace" font-size="28">Height relative to peak day</text></svg>')
     return "".join(parts)
 
 def main():
