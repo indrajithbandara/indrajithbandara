@@ -94,7 +94,7 @@ Personal portfolio and professional technology platform.
 - **Tooling:** Git, GitHub, VS Code
 - **Emerging technology:** AI, privacy engineering
 
-<img src="assets/expertise-map-mobile.svg" alt="Qualitative map of technical interests; no proficiency scores" width="520">
+<img src="assets/expertise-map-mobile.svg" alt="Qualitative map of technical interests; no proficiency scores" width="360">
 
 ## 04 / `ls ./credentials`
 
@@ -129,7 +129,7 @@ Academy and learning ecosystem affiliations listed in my professional profile:
 ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn_Learning-0A66C2?style=flat-square&logo=linkedin&logoColor=white)
 
-<img src="assets/ecosystem-map-mobile.svg" alt="Selected academy and learning ecosystem affiliations" width="520">
+<img src="assets/ecosystem-map-mobile.svg" alt="Selected academy and learning ecosystem affiliations" width="360">
 
 ## 06 / `git log --activity`
 
