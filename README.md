@@ -36,7 +36,7 @@ SYNC           Daily scheduled refresh
 
 ## 01 / `whoami`
 
-<img src="assets/terminal-identity.svg" alt="Animated terminal command: whoami" width="520">
+<img src="assets/terminal-identity.svg" alt="Animated terminal command: whoami" width="400">
 
 ```console
 guest@indrajith:~$ whoami
@@ -56,7 +56,7 @@ My work and interests span cybersecurity education, Cisco instructor training, n
 
 ## 02 / `ls ./projects`
 
-<img src="assets/terminal-projects.svg" alt="Animated terminal command: ls ./projects" width="520">
+<img src="assets/terminal-projects.svg" alt="Animated terminal command: ls ./projects" width="400">
 
 ### [Untouched: Privacy Lock](https://github.com/indrajithbandara/Privacy-Lock-App)
 
@@ -84,7 +84,7 @@ Personal portfolio and professional technology platform.
 
 ## 03 / `cat skills.conf`
 
-<img src="assets/terminal-skills.svg" alt="Animated terminal command: cat skills.conf" width="520">
+<img src="assets/terminal-skills.svg" alt="Animated terminal command: cat skills.conf" width="400">
 
 - **Security:** Cybersecurity, ethical hacking, network security, Fortinet, Palo Alto
 - **Networking:** Cisco, network infrastructure
@@ -98,7 +98,7 @@ Personal portfolio and professional technology platform.
 
 ## 04 / `ls ./credentials`
 
-<img src="assets/terminal-credentials.svg" alt="Animated terminal command: ls ./credentials" width="520">
+<img src="assets/terminal-credentials.svg" alt="Animated terminal command: ls ./credentials" width="400">
 
 - 🎖️ **CCEP** — Certified Cybersecurity Educator Professional
 - ☁️ **Oracle Cloud** — Oracle Cloud Foundations Certified
@@ -115,7 +115,7 @@ The sequence groups achievements by theme, not chronological order.
 
 ## 05 / `cat academy-network.conf`
 
-<img src="assets/terminal-academy.svg" alt="Animated terminal command: cat academy-network.conf" width="520">
+<img src="assets/terminal-academy.svg" alt="Animated terminal command: cat academy-network.conf" width="400">
 
 Academy and learning ecosystem affiliations listed in my professional profile:
 
@@ -133,7 +133,7 @@ Academy and learning ecosystem affiliations listed in my professional profile:
 
 ## 06 / `git log --activity`
 
-<img src="assets/terminal-activity.svg" alt="Animated terminal command: git log --activity" width="520">
+<img src="assets/terminal-activity.svg" alt="Animated terminal command: git log --activity" width="400">
 
 <!-- metrics:start -->
 
@@ -184,7 +184,7 @@ The skyline visualizes daily activity. For accessible counts and dates, use the 
 
 ## 07 / `cat contact.conf`
 
-<img src="assets/terminal-contact.svg" alt="Animated terminal command: cat contact.conf" width="520">
+<img src="assets/terminal-contact.svg" alt="Animated terminal command: cat contact.conf" width="400">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/indrajithbandara)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/indrajithbandara)
