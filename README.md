@@ -96,7 +96,14 @@ Academy and learning ecosystem affiliations listed in my professional profile:
 
 <!-- metrics:start -->
 
-GitHub metrics will appear after the first successful automated refresh.
+Public repositories: **2855** · Followers: **1471**
+
+| Repository | Open issues & PRs | Stars | Last push (UTC) |
+| --- | ---: | ---: | --- |
+| [Privacy-Lock-App](https://github.com/indrajithbandara/Privacy-Lock-App) | 10 | 1 | 2026-11-25 |
+| [indrajithbandara.github.io](https://github.com/indrajithbandara/indrajithbandara.github.io) | 1 | 0 | 2026-11-26 |
+
+Source: GitHub API. Last push is activity, not a release or security certification.
 
 <!-- metrics:end -->
 
