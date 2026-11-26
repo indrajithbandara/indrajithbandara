@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - scripts/refresh_profile.py
+      - scripts/refresh_skyline.py
       - .github/workflows/profile-metrics.yml
 permissions:
   contents: write
@@ -25,11 +26,21 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/refresh_profile.py
+      - name: Refresh public contribution skyline
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if python3 scripts/refresh_skyline.py; then
+            python3 -c "import xml.etree.ElementTree as E; E.parse('assets/contribution-skyline.svg')"
+          else
+            echo "::warning::Contribution calendar unavailable; retaining previous skyline"
+          fi
       - name: Commit changed metrics
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
+          if test -f assets/contribution-skyline.svg; then git add assets/contribution-skyline.svg; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: refresh profile metrics"
           git push origin HEAD:main
