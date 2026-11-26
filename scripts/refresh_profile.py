@@ -1,5 +1,4 @@
 import json
-from datetime import datetime, timezone
 import os
 import pathlib
 import urllib.request
@@ -16,8 +15,13 @@ def api(path):
                  "Accept": "application/vnd.github+json",
                  "X-GitHub-Api-Version": "2022-11-28",
                  "User-Agent": "profile-terminal-refresh"})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        if exc.code in (403, 404) and ("/check-runs" in path):
+            return {"unavailable": True, "check_runs": []}
+        raise
 
 def main():
     profile = api("users/" + OWNER)
@@ -43,7 +47,7 @@ def main():
             activity.append(f"- [{name} / {sha[:7]}]({commit['html_url']}) — {commit['commit']['committer']['date'][:10]}")
             checks = api(base + "/commits/" + sha + "/check-runs?per_page=100")
             runs = checks.get("check_runs", [])
-            check = "No checks reported" if not runs else ("Pending" if any(x["status"] != "completed" for x in runs) else ("All reported checks passed" if all(x.get("conclusion") == "success" for x in runs) else "See check results"))
+            check = "Check data unavailable" if checks.get("unavailable") else "No checks reported" if not runs else ("Pending" if any(x["status"] != "completed" for x in runs) else ("All reported checks passed" if all(x.get("conclusion") == "success" for x in runs) else "See check results"))
         else:
             check = "No commits reported"
         try:
