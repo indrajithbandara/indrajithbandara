@@ -1,0 +1,37 @@
+import json
+import os
+import pathlib
+import urllib.request
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+OWNER = "indrajithbandara"
+PROJECTS = ["Privacy-Lock-App", "undisturbed", "indrajithbandara.github.io"]
+
+def api(path):
+    request = urllib.request.Request(
+        "https://api.github.com/" + path,
+        headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"],
+                 "Accept": "application/vnd.github+json",
+                 "X-GitHub-Api-Version": "2022-11-28",
+                 "User-Agent": "profile-terminal-refresh"})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.load(response)
+
+def main():
+    profile = api("users/" + OWNER)
+    lines = ["| Repository | Open issues & PRs | Stars | Last push (UTC) |", "| --- | ---: | ---: | --- |"]
+    for name in PROJECTS:
+        repo = api("repos/" + OWNER + "/" + name)
+        lines.append(f"| [{name}](https://github.com/{OWNER}/{name}) | {repo['open_issues_count']} | {repo['stargazers_count']} | {repo['pushed_at'][:10]} |")
+    block = "\n".join(["<!-- metrics:start -->", "", f"Public repositories: **{profile['public_repos']}** · Followers: **{profile['followers']}**", "", *lines, "", "Source: GitHub API. Last push is activity, not a release or security certification.", "", "<!-- metrics:end -->"])
+    path = ROOT / "README.md"
+    original = path.read_text(encoding="utf-8")
+    start, end = "<!-- metrics:start -->", "<!-- metrics:end -->"
+    if original.count(start) != 1 or original.count(end) != 1 or original.index(start) > original.index(end):
+        raise ValueError("Expected exactly one ordered metrics block")
+    updated = original[:original.index(start)] + block + original[original.index(end)+len(end):]
+    if updated != original:
+        path.write_text(updated, encoding="utf-8")
+
+if __name__ == "__main__":
+    main()
