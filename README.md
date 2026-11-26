@@ -14,7 +14,7 @@
 
 ---
 
-<img src="assets/terminal-boot.svg" alt="Profile boot sequence" width="520">
+<img src="assets/terminal-boot.svg" alt="Profile boot sequence" width="360">
 
 ### `help` — Command index
 
@@ -66,13 +66,13 @@ Android privacy and application-locking project built with Kotlin and Jetpack Co
 
 [Source code](https://github.com/indrajithbandara/Privacy-Lock-App) · [Releases](https://github.com/indrajithbandara/Privacy-Lock-App/releases)
 
-### [Undisturbed](https://github.com/indrajithbandara/undisturbed)
+### Undisturbed
 
 Network privacy engineering project exploring tracker detection and Android VPN-based protection.
 
 `Android` · `Network privacy` · `Tracker protection`
 
-[Source code](https://github.com/indrajithbandara/undisturbed) · [Development activity](https://github.com/indrajithbandara/undisturbed/pulls)
+Development repository is not publicly accessible.
 
 ### [Professional Technology Platform](https://indrajithbandara.is-a.dev/)
 
@@ -107,11 +107,11 @@ Personal portfolio and professional technology platform.
 - 🎓 **CodePath Mentor** — CodePath Mentor Network
 - 🏆 **220+ Badges** — Digital Credentials across Security, Cloud & Networking
 
-### Achievement milestones (dates not supplied)
+### Achievement themes
 
 `Cybersecurity education` → `Cloud foundations` → `Professional communities` → `Technical mentoring`
 
-The sequence groups achievements by theme, not chronological order.
+Grouped by theme, not chronological order.
 
 ## 05 / `cat academy-network.conf`
 
@@ -176,7 +176,7 @@ Source: GitHub API. Last push is activity, not a release or security certificati
 
 <!-- skyline:end -->
 
-The skyline visualizes daily activity. For accessible counts and dates, use the [GitHub contribution calendar](https://github.com/indrajithbandara).
+The skyline visualizes GitHub calendar activity; counts may include private contribution aggregates depending on visibility settings. For accessible counts and dates, use the [GitHub contribution calendar](https://github.com/indrajithbandara).
 
 [![Contribution skyline — generated from GitHub calendar when available](assets/contribution-skyline.svg)](https://github.com/indrajithbandara)
 
@@ -201,4 +201,4 @@ Build with purpose. Learn continuously.
 guest@indrajith:~$ _
 ```
 
-<sub>Modern Terminal 5.0 · Professional engineering profile</sub>
+<sub>Modern Terminal 5.0 · Mobile-first engineering profile</sub>
