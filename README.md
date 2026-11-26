@@ -89,6 +89,8 @@ Personal portfolio and professional technology platform.
 | Tooling | Git, GitHub, VS Code |
 | Emerging technology | AI, privacy engineering |
 
+<img src="assets/expertise-map.svg" alt="Qualitative map of technical interests; no proficiency scores" width="520">
+
 ## 04 / `ls ./credentials`
 
 <img src="assets/terminal-credentials.svg" alt="Animated terminal command: ls ./credentials" width="520">
@@ -101,6 +103,12 @@ Personal portfolio and professional technology platform.
 | 🤖 **AI Frontier** | AI Frontier Network Member |
 | 🎓 **CodePath Mentor** | CodePath Mentor Network |
 | 🏆 **220+ Badges** | Digital Credentials across Security, Cloud & Networking |
+
+### Achievement milestones (dates not supplied)
+
+`Cybersecurity education` → `Cloud foundations` → `Professional communities` → `Technical mentoring`
+
+The sequence groups achievements by theme, not chronological order.
 
 ## 05 / `cat academy-network.conf`
 
@@ -117,6 +125,8 @@ Academy and learning ecosystem affiliations listed in my professional profile:
 ![VMware](https://img.shields.io/badge/Broadcom_VMware-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Coursera](https://img.shields.io/badge/Coursera-0056D2?style=flat-square&logo=coursera&logoColor=white)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn_Learning-0A66C2?style=flat-square&logo=linkedin&logoColor=white)
+
+<img src="assets/ecosystem-map.svg" alt="Selected academy and learning ecosystem affiliations" width="520">
 
 ## 06 / `git log --activity`
 
