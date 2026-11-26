@@ -25,9 +25,9 @@ def api(path):
 
 def main():
     profile = api("users/" + OWNER)
-    lines = ["| Repository | Open issues & PRs | Stars | Last push (UTC) |", "| --- | ---: | ---: | --- |"]
+    lines = []
     activity = []
-    health = ["| Repository | Latest published release | Latest commit check |", "| --- | --- | --- |"]
+    health = []
     for name in PROJECTS:
         try:
             repo = api("repos/" + OWNER + "/" + name)
@@ -38,7 +38,7 @@ def main():
             raise
         if repo.get("private") or repo.get("visibility") != "public":
             continue
-        lines.append(f"| [{name}](https://github.com/{OWNER}/{name}) | {repo['open_issues_count']} | {repo['stargazers_count']} | {repo['pushed_at'][:10]} |")
+        lines.append(f"- **[{name}](https://github.com/{OWNER}/{name})**\n  - Open issues & PRs: {repo['open_issues_count']} · Stars: {repo['stargazers_count']}\n  - Last push (UTC): {repo['pushed_at'][:10]}")
         base = "repos/" + OWNER + "/" + name
         commits = api(base + "/commits?per_page=1")
         if commits:
@@ -57,7 +57,7 @@ def main():
             if exc.code != 404:
                 raise
             release_label = "No latest stable release reported"
-        health.append(f"| [{name}](https://github.com/{OWNER}/{name}) | [{release_label}](https://github.com/{OWNER}/{name}/releases) | {check} |")
+        health.append(f"- **[{name}](https://github.com/{OWNER}/{name})**\n  - [{release_label}](https://github.com/{OWNER}/{name}/releases)\n  - {check}")
     created = profile["created_at"][:10]
     block = "\n".join(["<!-- metrics:start -->", "", f"Public repositories: **{profile['public_repos']}** · Followers: **{profile['followers']}**", "", *lines, "", f"Account created: **{created}**", "", "### Latest public engineering activity", "", *activity, "", "### Project health monitor", "", *health, "", "Check results are not a security or production-readiness guarantee.", "", "Source: GitHub API. Last push is activity, not a release or security certification.", "", "<!-- metrics:end -->"])
     path = ROOT / "README.md"
